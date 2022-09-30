@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>SOS DevTips</title>
+    <link rel="stylesheet" href="/assets/css/flex-grid.css">
+    <link rel="stylesheet" href="/assets/css/popup.css">
 </head>
 <body>
+    <div class="container">
+        <aside class="flex flex-column">
+            <header class="flex flex-column flex-align-center">
+                <img src="/assets/images/logo-dark.png" alt="SOS DevTips l'extension pour les dev par des dev">
+                <form class="flex flex-align-center flex-justify-between" action="">
+                    <input type="text" placeholder="Quel est ton problème ?">
+                    <button class="flex flex-align-center flex-justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M14.69 2.21L4.33 11.49c-.64.58-.28 1.65.58 1.73L13 14l-4.85 6.76c-.22.31-.19.74.08 1.01c.3.3.77.31 1.08.02l10.36-9.28c.64-.58.28-1.65-.58-1.73L11 10l4.85-6.76c.22-.31.19-.74-.08-1.01a.77.77 0 0 0-1.08-.02z"/></svg>
+                    </button>
+                </form>
+            </header>
+            <section>
+                <ul>
+                    <li><a href="#">Thème 1</a></li>
+                    <li><a href="#">Thème 2</a></li>
+                    <li><a href="#">Thème 3</a></li>
+                    <li><a href="#">Thème 4</a></li>
+                    <li><a href="#">Thème 5</a></li>
+                    <li><a href="#">Thème 6</a></li>
+                    <li><a href="#">Thème 7</a></li>
+                    <li><a href="#">Thème 8</a></li>
+                    <li><a href="#">Thème 9</a></li>
+                    <li><a href="#">Thème 10</a></li>
+                    <li><a href="#">Thème 11</a></li>
+                    <li><a href="#">Thème 12</a></li>
+                    <li><a href="#">Thème 13</a></li>
+                    <li><a href="#">Thème 14</a></li>
+                    <li><a href="#">Thème 15</a></li>
+                </ul>
+            </section>
+        </aside>
+        <main>
+            <header>
+                <h1 id="title">querySelectorAll</h1>
+                <h3 id="subtitle">Action : « Comment manipuler le DOM »</h3>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p>
+            <hr>
+            <h4>Exemple :</h4>
+            <section class="code">
+                <code>
+                    document.querySelectorAll(‘a’).forEach(function (a) {
+                        a.addEventListener(‘click’, function (e) {
+                            e.preventDefault()
+                            console.log(‘clicked’, a.href)
+                        })
+                    })
+                </code>
+            </section>
+        </main>
+        <footer class="flex flex-justify-between flex-align-center">
+            <img src="/assets/images/icon-light.png" alt="">
+            <p>Débloque ton problème de code en développement web • </p>
+            <p><a href="#">Contributeurices</a></p>
+        </footer>
+    </div>
+    
     
 </body>
 </html>

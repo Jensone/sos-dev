@@ -1,0 +1,33 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a {text-decoration: none;}
+
+/* Flexbox Grid */
+.flex {display: flex;}
+.flex-column {flex-direction: column;}
+.flex-row {flex-direction: row;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-nowrap {flex-wrap: nowrap;}
+.flex-justify-center {justify-content: center;}
+.flex-justify-between {justify-content: space-between;}
+.flex-justify-around {justify-content: space-around;}
+.flex-align-center {align-items: center;}
+.flex-align-start {align-items: flex-start;}
+.flex-align-end {align-items: flex-end;}
+.flex-align-stretch {align-items: stretch;}
+.flex-align-baseline {align-items: baseline;}
+.flex-align-space-between {align-items: space-between;}
+.flex-align-space-around {align-items: space-around;}
+.flex-align-space-evenly {align-items: space-evenly;}
+.flex-align-self-start {align-self: flex-start;}
+.flex-align-self-end {align-self: flex-end;}
+.flex-align-self-center {align-self: center;}
+.flex-align-self-stretch {align-self: stretch;}
+.flex-align-self-baseline {align-self: baseline;}
+.flex-align-self-auto {align-self: auto;}
+.flex-align-self-normal {align-self: normal;}

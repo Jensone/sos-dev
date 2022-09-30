@@ -1,14 +1,18 @@
 {
-  "name": "SOS Dev Tips",
+  "name": "SOS DevTips",
   "description": "L'extension qui vous aide à trouver des solutions pour vos problèmes en développement web !",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [
     "notifications",
-    "storage"
+    "storage",
+    "scripting"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_title": "SOS Dev Tips",
+    "default_title": "SOS DevTips",
     "default_popup": "popup.html"
   },
   "icons": {
