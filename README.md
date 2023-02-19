@@ -14,4 +14,4 @@ C'est l'extension Chrome qui vous permet de vous aider à développer vos sites 
 
 Il est possible que vous rencontriez une erreur lors du chargement de l'extension. Dans ce lisez le message d'erreur afin de comprendre ce qui ne va pas.
 
-Dernier point, vous devez recharger l'extension à chaque modification.
+/!\ Dernier point, vous devez recharger l'extension à chaque modification.
