@@ -15,3 +15,5 @@ C'est l'extension Chrome qui vous permet de vous aider à développer vos sites 
 Il est possible que vous rencontriez une erreur lors du chargement de l'extension. Dans ce lisez le message d'erreur afin de comprendre ce qui ne va pas.
 
 /!\ Dernier point, vous devez recharger l'extension à chaque modification.
+
+![screenshot](https://sos-dev-tips.com/wp-content/uploads/2023/03/SOS-DevTips-UI.png)
